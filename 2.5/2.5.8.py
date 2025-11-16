@@ -1,0 +1,10 @@
+num = int(input())
+digit_a = num // 100
+digit_b = (num // 10) % 10
+digit_c = num % 10
+print(digit_a, digit_b, digit_c, sep='')
+print(digit_a, digit_c, digit_b, sep='')
+print(digit_b, digit_a, digit_c, sep='')
+print(digit_b, digit_c, digit_a, sep='')
+print(digit_c, digit_a, digit_b, sep='')
+print(digit_c, digit_b, digit_a, sep='')
