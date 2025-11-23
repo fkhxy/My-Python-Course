@@ -1,0 +1,5 @@
+a, b, c = int(input()), int(input()), int(input())
+nmx = max(a, b, c)
+nmn = min(a, b, c)
+nmd = (a + b + c) - (nmx + nmn)
+print(nmx, nmd, nmn, sep='\n')
